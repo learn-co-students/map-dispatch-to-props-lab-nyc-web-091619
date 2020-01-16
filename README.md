@@ -20,7 +20,7 @@ Redux is already set up through `index.js` and the reducer `manageRestaurants`.
 Write a __mapDispatchToProps()__ function that allows us to pass dispatched
 actions as props.
 
-Remember that __mapDispatchToProps()__ is provided `dispatch` as an argument
+Remember that __mapDispatchToProps()__ is providing `dispatch` as an argument
 (passed in by `connect` when called), so we can wrap an imported action with
 `dispatch` within __mapDispatchToProps()__. Don't forget that the action
 provided in `actions/restaurants.js` is a function that _must be called_ in
